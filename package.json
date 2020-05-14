@@ -23,6 +23,9 @@
     "mongoose": "^5.9.14",
     "startbootstrap-clean-blog": "^5.0.8"
   },
+  "engines":{
+    "node": "12.14.1"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/pradumn711/blog-website-project.git"
