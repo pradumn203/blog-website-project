@@ -2,6 +2,7 @@
   "name": "blog",
   "version": "1.0.0",
   "description": "Blogging Site Project",
+  "repository": "https://github.com/pradumn711/blog-website-project.git",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
