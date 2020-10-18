@@ -45,17 +45,7 @@ app.use('*', (req, res, next) => {
     next()
 });
  
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: true }));
 
-const connectFlash = require("connect-flash");	
-app.use(connectFlash());
- 
-const storePost = require('./middleware/storePost')
-
-const auth = require("./middleware/auth");
-const redirectIfAuthenticated = require('./middleware/redirectIfAuthenticated');
-  
  
 app.use('/posts/store', storePost)
  
